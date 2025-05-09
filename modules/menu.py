@@ -1,4 +1,8 @@
 def show_menu():
-    print("x eingeben zum beenden.")
-    choice = input("Auswahl: ")
+    print("select what to do:")
+    print("1: nmap (simple nmap implementation)")
+    print()
+    print("x: exit")
+    
+    choice = input("> ")
     return choice

@@ -1,7 +1,7 @@
 # tiffepwn
 **Tiffe's Pentesting Toolkit**
 
-![Python Version](https://imgs.shield.io/badge/python-3.8-blue)
+![Static Badge](https://img.shields.io/badge/python-3.8-blue?logo=python)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🚀 Features

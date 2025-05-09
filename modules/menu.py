@@ -1,4 +1,5 @@
 from modules.os_det import clear_screen
+from modules.nmap_func import nmap_simple
 from time import sleep
 
 def show_menu():
@@ -22,8 +23,8 @@ def show_menu():
 def menu_selection(menu_choice):
     menu_error = False
     if menu_choice == "1":
-        print("nmap loading...")
-        sleep(2)
+        clear_screen()
+        nmap_simple()
     elif menu_choice == "x":
         print("goodby!")
         exit()

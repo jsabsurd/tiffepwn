@@ -27,7 +27,7 @@ def menu_selection(menu_choice):
         clear_screen()
         nmap_simple()
     elif menu_choice == "x":
-        print("goodby!")
+        print(colored("Hier wird gehackt wie beim Amt - nur ohne Genehmigung!", "yellow", "on_grey"))
         exit()
     else:
         menu_error=True

@@ -1,8 +1,8 @@
 # tiffepwn
 **Tiffe's Pentesting Toolkit**
 
-![Python Version](https://img.shield.io/badge/python-3.8%2b-blue)
-!{License}(https://img.shield.io/badge/license-MIT-green)
+![Python Version](https://img.shield.io/badge/python-3.8-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🚀 Features
 - an simple Toolkit, based around german tv-icone Jochen Tiffe

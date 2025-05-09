@@ -4,10 +4,12 @@ def main():
     while True:
         menu_choice = show_menu()
         
-        if menu_choice == "x":
+        if menu_choice == "1":
+            print("nmap loading...")
+        elif menu_choice == "x":
             break
         else:
-            print(f"das hier: {menu_choice} ?")
+            print(f"{menu_choice} is not an available option!")
 
 if __name__ == "__main__":
     main()

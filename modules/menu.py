@@ -1,6 +1,7 @@
 from modules.os_det import clear_screen
 from modules.nmap_func import nmap_simple
 from time import sleep
+from termcolor import colored
 
 def show_menu():
 
@@ -11,7 +12,7 @@ def show_menu():
     print("   ██║   ██║██║     ██║     ███████╗███████║    ██║     ╚███╔███╔╝██║ ╚████║      ██║  ██╗██║   ██║   ")
     print("   ╚═╝   ╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝    ╚═╝      ╚══╝╚══╝ ╚═╝  ╚═══╝      ╚═╝  ╚═╝╚═╝   ╚═╝   ")
     print("                                                                                                      ")
-    print("                     \"Ein Tiffe Sport FM Schnellfilm.\"")
+    print("                     " + colored("\"Ein Tiffe Sport FM Schnellfilm.\"", "yellow", "on_grey"))
     print("select what to do:")
     print("1: nmap (simple nmap implementation)")
     print()

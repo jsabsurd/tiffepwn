@@ -1,6 +1,8 @@
 from modules.os_det import clear_screen
 from modules.nmap_func import nmap_simple
-# from time import sleep
+from modules.webbuster import bustit
+from time import sleep
+import asyncio
 from termcolor import colored
 
 
@@ -25,6 +27,7 @@ def show_menu():
                   "yellow", "on_grey"))
     print("select what to do:")
     print("1: nmap (simple nmap implementation)")
+    print("2: bruteforc website dirs/files")
     print()
     print("x: exit")
 
@@ -37,6 +40,9 @@ def menu_selection(menu_choice):
     if menu_choice == "1":
         clear_screen()
         nmap_simple()
+    elif menu_choice == "2":
+        clear_screen()
+        asyncio.run(bustit("https://www.gentoo.org", ["get-started", "backup", "login.php"]))
     elif menu_choice == "x":
         print(colored("Hier wird gehackt wie beim Amt - nur ohne Genehmigung!",
                       "yellow", "on_grey"))

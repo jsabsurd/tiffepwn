@@ -42,7 +42,7 @@ def menu_selection(menu_choice):
         nmap_simple()
     elif menu_choice == "2":
         clear_screen()
-        asyncio.run(bustit("https://www.gentoo.org", ["get-started", "backup", "login.php"]))
+        asyncio.run(bustit(["get-started", "backup", "login.php"]))
     elif menu_choice == "x":
         print(colored("Hier wird gehackt wie beim Amt - nur ohne Genehmigung!",
                       "yellow", "on_grey"))

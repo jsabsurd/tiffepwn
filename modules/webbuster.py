@@ -12,7 +12,10 @@ async def check_url(session, url):
         pass
 
 
-async def bustit(target, words):
+async def bustit(words):
+    print("enter URL to scan:")
+    print()
+    target = input("> ")
     async with aiohttp.ClientSession() as session:
         tasks = [check_url(session, f"{target}/{word.strip()}")
                  for word in words]
